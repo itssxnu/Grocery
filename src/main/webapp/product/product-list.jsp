@@ -58,7 +58,7 @@
       <tr class="hover:bg-gray-50">
         <td class="py-3 px-4"><%= p.getProductName() %></td>
         <td class="py-3 px-4"><%= p.getCategory() %></td>
-        <td class="py-3 px-4">$<%= p.getPrice() %></td>
+        <td class="py-3 px-4"><%= p.getPrice() %> LKR</td>
         <td class="py-3 px-4"><%= p.getQuantity() %></td>
         <td class="py-3 px-4">
           <a href="product?action=edit&id=<%= p.getProductID() %>" class="text-accent hover:text-dark mr-2">Edit</a>

@@ -49,7 +49,7 @@
                 <td class="py-3 px-4"><%= payment.getPaymentId() %></td>
                 <td class="py-3 px-4"><%= payment.getOrderId() %></td>
                 <td class="py-3 px-4"><%= payment.getUserName() %></td>
-                <td class="py-3 px-4">$<%= payment.getAmount() %></td>
+                <td class="py-3 px-4"><%= payment.getAmount() %> LKR</td>
                 <td class="py-3 px-4">
                         <span class="px-2 py-1 rounded-full text-xs
                             <%= "completed".equals(payment.getStatus()) ? "bg-green-100 text-green-800" :

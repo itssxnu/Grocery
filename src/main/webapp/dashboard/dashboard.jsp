@@ -242,7 +242,7 @@
             <div class="flex-1">
                 <div class="flex items-center">
                     <div class="font-semibold"><%= item.getProductName() %></div>
-                    <div class="text-dark font-medium mb-2">$<%= item.getPrice() %></div>
+                    <div class="text-dark font-medium mb-2"><%= item.getPrice() %> LKR</div>
                     <div class="flex items-center">
                         <div class="quantity-control flex items-center mr-4">
                             <form action="cart" method="post" class="flex">
@@ -276,7 +276,7 @@
             }
         %>
         <div class="cart-total text-right font-bold text-lg mb-6">
-            Total: $<%= String.format("%.2f", total) %>
+            Total: <%= String.format("%.2f", total) %> LKR
         </div>
 
 
